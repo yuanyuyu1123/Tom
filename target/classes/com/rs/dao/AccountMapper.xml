@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.rs.dao.IAccountDao">
+    <insert id="insertOneAccount" parameterType="account">
+        insert into acou (id,name,,money)values (#{account.getId},#{account.getName},#{account.getMoney});
+    </insert>
+    <update id="updateOneAccountById" parameterType="account">
+        update acou set(name,money) values (#{account.getName},#(account.getMoney))where id=#{account.getId};
+    </update>
+    <delete id="deleteOneAccountById" parameterType="integer">
+        delete * from acou where id=#{id};
+    </delete>
+    <select id="findAllAccount" resultType="account">
+        select * from acou;
+    </select>
+    <select id="findOneAccountById" parameterType="integer" resultType="account">
+        select * from acou where id=#{id};
+    </select>
+</mapper>

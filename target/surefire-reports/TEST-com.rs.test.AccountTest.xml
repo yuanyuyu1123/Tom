@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.rs.test.AccountTest" time="2.531" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\javafile\ssmday01\target\test-classes;E:\javafile\ssmday01\target\classes;D:\YUAN\maven\apache-maven-3.6.3\repository\org\aspectj\aspectjweaver\1.6.8\aspectjweaver-1.6.8.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-aop\5.0.2.RELEASE\spring-aop-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-beans\5.0.2.RELEASE\spring-beans-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-core\5.0.2.RELEASE\spring-core-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-jcl\5.0.2.RELEASE\spring-jcl-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-context\5.0.2.RELEASE\spring-context-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-expression\5.0.2.RELEASE\spring-expression-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-web\5.0.2.RELEASE\spring-web-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-webmvc\5.0.2.RELEASE\spring-webmvc-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-test\5.0.2.RELEASE\spring-test-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-tx\5.0.2.RELEASE\spring-tx-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-jdbc\5.0.2.RELEASE\spring-jdbc-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\junit\junit\4.12\junit-4.12.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\mysql\mysql-connector-java\8.0.20\mysql-connector-java-8.0.20.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\javax\servlet\jsp\jsp-api\2.0\jsp-api-2.0.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\jstl\jstl\1.2\jstl-1.2.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\slf4j\slf4j-log4j12\1.6.6\slf4j-log4j12-1.6.6.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\mybatis\mybatis\3.5.4\mybatis-3.5.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\mybatis\mybatis-spring\2.0.1\mybatis-spring-2.0.1.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\alibaba\druid\1.0.9\druid-1.0.9.jar;D:\JDK\jre\..\lib\jconsole.jar;D:\JDK\jre\..\lib\tools.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.4\jackson-annotations-2.9.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\fasterxml\jackson\core\jackson-databind\2.9.4\jackson-databind-2.9.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\fasterxml\jackson\core\jackson-core\2.9.4\jackson-core-2.9.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\JDK\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\23216\AppData\Local\Temp\surefire5186811991855586009\surefirebooter1164120167284400540.jar C:\Users\23216\AppData\Local\Temp\surefire5186811991855586009 2020-07-02T15-45-02_635-jvmRun1 surefire458070050550571926tmp surefire_08455905751310447939tmp"/>
+    <property name="surefire.test.class.path" value="E:\javafile\ssmday01\target\test-classes;E:\javafile\ssmday01\target\classes;D:\YUAN\maven\apache-maven-3.6.3\repository\org\aspectj\aspectjweaver\1.6.8\aspectjweaver-1.6.8.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-aop\5.0.2.RELEASE\spring-aop-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-beans\5.0.2.RELEASE\spring-beans-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-core\5.0.2.RELEASE\spring-core-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-jcl\5.0.2.RELEASE\spring-jcl-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-context\5.0.2.RELEASE\spring-context-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-expression\5.0.2.RELEASE\spring-expression-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-web\5.0.2.RELEASE\spring-web-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-webmvc\5.0.2.RELEASE\spring-webmvc-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-test\5.0.2.RELEASE\spring-test-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-tx\5.0.2.RELEASE\spring-tx-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\springframework\spring-jdbc\5.0.2.RELEASE\spring-jdbc-5.0.2.RELEASE.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\junit\junit\4.12\junit-4.12.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\mysql\mysql-connector-java\8.0.20\mysql-connector-java-8.0.20.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\javax\servlet\jsp\jsp-api\2.0\jsp-api-2.0.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\jstl\jstl\1.2\jstl-1.2.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\slf4j\slf4j-api\1.6.6\slf4j-api-1.6.6.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\slf4j\slf4j-log4j12\1.6.6\slf4j-log4j12-1.6.6.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\mybatis\mybatis\3.5.4\mybatis-3.5.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\org\mybatis\mybatis-spring\2.0.1\mybatis-spring-2.0.1.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\alibaba\druid\1.0.9\druid-1.0.9.jar;D:\JDK\jre\..\lib\jconsole.jar;D:\JDK\jre\..\lib\tools.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.4\jackson-annotations-2.9.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\fasterxml\jackson\core\jackson-databind\2.9.4\jackson-databind-2.9.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\com\fasterxml\jackson\core\jackson-core\2.9.4\jackson-core-2.9.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;D:\YUAN\maven\apache-maven-3.6.3\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\23216"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\JDK\jre"/>
+    <property name="basedir" value="E:\javafile\ssmday01"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="idea.version2020.1.1" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\23216\AppData\Local\Temp\surefire5186811991855586009\surefirebooter1164120167284400540.jar"/>
+    <property name="sun.boot.class.path" value="D:\JDK\jre\lib\resources.jar;D:\JDK\jre\lib\rt.jar;D:\JDK\jre\lib\sunrsasign.jar;D:\JDK\jre\lib\jsse.jar;D:\JDK\jre\lib\jce.jar;D:\JDK\jre\lib\charsets.jar;D:\JDK\jre\lib\jfr.jar;D:\JDK\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="23216"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\JDK\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\YUAN\maven\apache-maven-3.6.3\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\23216\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="E:\javafile\ssmday01"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\JDK\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\YUAN\Python\Scripts\;D:\YUAN\Python\;D:\JDK\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;D:\YUAN\mysql\mysql-8.0.20-winx64\bin;C:\Program Files\Pandoc\;D:\YUAN\matlab\bin;D:\YUAN\maven\apache-maven-3.6.3\bin;C:\windows\system32\;D:\YUAN\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\23216\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\23216\AppData\Local\Programs\Python\Python38-32\;C:\Users\23216\AppData\Local\Microsoft\WindowsApps;D:\JDK\bin;D:\YUAN\VMware\AndroidSDK\ndk-bundle\bin;C:\Users\23216\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="D:\JDK\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="maven.repo.local" value="D:\YUAN\maven\apache-maven-3.6.3\repository"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="dindAll" classname="com.rs.test.AccountTest" time="2.481"/>
+</testsuite>
